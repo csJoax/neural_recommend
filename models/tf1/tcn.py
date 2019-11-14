@@ -279,7 +279,7 @@ class TextCNN(object):
 
             # Save Model
             saver = tf.train.Saver()
-            saver.save(sess, self.save_dir)  # , global_step=epoch_i
+            saver.save(sess, self.save_dir+"textCNN")  # , global_step=epoch_i
             print('Model Trained and Saved')
 
     def test(self):
