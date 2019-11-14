@@ -111,3 +111,6 @@ ENV/
 
 # tmp python for jupyter in vscode
 tmp.py
+
+# tensorboard
+runs/

@@ -1,3 +1,4 @@
-from data.get_data import get_movielens
+from models.tf1.train import train_model
+
 if __name__ == '__main__':
-    get_movielens()
+    train_model()
